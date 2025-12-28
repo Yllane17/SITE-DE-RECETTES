@@ -89,6 +89,46 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* ... (inchangé) */
+
+#contact-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 0.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+#contact-form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+#contact-form button[type="submit"]:hover {
+  background-color: #444;
+}
+
+
+
 @media (max-width: 768px) {
   header input {
     width: 80%;
